@@ -12,7 +12,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("Analiza danych sprzedazowych")
+st.title("Analiza sprzedaży projekt laboratoryjny")
 
 df = wczytaj_dane("data/sprzedaz.csv")
 df = wyczysc_dane(df)
